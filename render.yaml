@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: randomaccess-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python manage.py runserver 0.0.0.0:8000
