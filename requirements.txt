@@ -2,3 +2,4 @@ Django==4.2
 strawberry-graphql[django]
 mysqlclient
 dj-database-url
+
